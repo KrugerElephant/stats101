@@ -16,7 +16,5 @@ Here I used a `div` element. I think this is the best solution. According to som
 
 <div id="Chapter2"></div>
 
-Click here to read the [chapter 2](#Chapter2).
-
 <div id="Chapter3"></div>
 
