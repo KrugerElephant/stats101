@@ -1,11 +1,12 @@
 # stats101
-Basic classical Statistics in Python
+Basic classical statistics in Python
 
 # Content
 
 * [Chapter 1: Git and Github](#Chapter1)
-* [Chapter 2: Normal Distribution,mean, median, mode and standard deviation](#Chapter2)
-* [Chapter 3: Central Limits Theorem, sample size, statistical power](#Chapter3)
+* [Chapter 2: Python virtual environment](#Chapter2)
+* [Chapter 3: Normal Distribution,mean, median, mode and standard deviation](#Chapter3)
+* [Chapter 4: Central Limits Theorem, sample size, statistical power](#Chapter4)
 
 <div id="Chapter1"></div>
 
@@ -34,7 +35,8 @@ Basic classical Statistics in Python
 
 * [Chapter 1: Git and Github](#Chapter1)
 * [Chapter 2: Normal Distribution,mean, median, mode and standard deviation](#Chapter2)
-* [Chapter 3: Central Limits Theorm, sample size, statistical power](#Chapter3)
+* [Chapter 3: Normal Distribution,mean, median, mode and standard deviation](#Chapter3)
+* [Chapter 4: Central Limits Theorm, sample size, statistical power](#Chapter4)
 
 <div id="Chapter1"></div>
 
@@ -61,19 +63,16 @@ https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on
 
 <div id="Chapter2"></div>
 
- Normal Distribution,mean, median, mode and standard deviation
+ Python Virtual Environment
  -----------------------------------------------------------------
+
 
 <div id="Chapter3"></div>
 
-Central Limits Theorm, sample size, statistical power
--------------------------------------------------------------
-<div id="Chapter2"></div>
-
  Normal Distribution,mean, median, mode and standard deviation
  -----------------------------------------------------------------
 
-<div id="Chapter3"></div>
+<div id="Chapter4"></div>
 
 Central Limits Theorm, sample size, statistical power
 -------------------------------------------------------------
