@@ -5,7 +5,7 @@ Basic classical Statistics in Python
 
 * [Chapter 1: Git and Github](#Chapter1)
 * [Chapter 2: Normal Distribution,mean, median, mode and standard deviation](#Chapter2)
-* [Chapter 3: Central Limits Theorm, sample size, statistical power](#Chapter3)
+* [Chapter 3: Central Limits Theorem, sample size, statistical power](#Chapter3)
 
 <div id="Chapter1"></div>
 
