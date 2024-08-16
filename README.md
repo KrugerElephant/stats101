@@ -1,5 +1,5 @@
 # stats101
-Statistics 101 in Python
+Basic classical Statistics in Python
 
 **Course Outline**
 
