@@ -16,5 +16,8 @@ Here I used a `div` element. I think this is the best solution. According to som
 
 <div id="Chapter2"></div>
 
+ Normal Distribution,mean, median, mode and standard deviation
+
 <div id="Chapter3"></div>
 
+Central Limits Theorm, sample size, statistical power
