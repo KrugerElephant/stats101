@@ -12,7 +12,9 @@ Basic classical Statistics in Python
 Git and Github
 -----------------
 
-Here I used a `div` element. I think this is the best solution. According to some comments, if you use the `span` tag, you must add an empty line.
+**Git**
+
+A software tool for code version control
 
 <div id="Chapter2"></div>
 
