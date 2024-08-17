@@ -84,7 +84,7 @@ On the terminal
 
 <div id="Chapter3"></div>
 
-# Normal Distribution,mean, median, mode, variance and standard deviation
+# Normal Distribution, mean, median, mode, variance and standard deviation
 
 **Population and Sample**
 
@@ -106,9 +106,35 @@ Will you measure the weights of all the students?
 
 It will cost time and money to measure all the students.
 
-Is it possible to arrive at the answers you seek by measuring the weights of a subset of the students instead? Thats would be nice as you can save time and money.
+Is it possible to arrive at the answers you seek by measuring the weights of a subset of the students instead? That would be nice as you can save time and money.
+
+But before we go about sampling a subset of data, let us investigate the properties of the data of the "population".
+
+It so happens that some of the phenomena in nature have values that are distributed more or less symmetrically about the mid point of their data range.
+
+Most values in the data are near the center of the range of the data. For example the weight of adult humans in kilograms in Asia. The range is 45 to 85 kilos and most people weight around 65 kilos 
+
+The center of the range is the mean or the average of the data. 
+
+As you go further and further away from the center or the mean the frequency of data points decreases. Extreme values on either side are very very very rare. 
+
+This kind of behaviour produces a frequencey distribution curve that looks like a bell. 
+
+Data with such a bell shape are said to be "normally distributed" about the mean.
+
+**Normal distribution (The Bell Shaped Curve) is also know as Gaussian distribution**
+
+![The Bell Curve](./images/bell-curve.jpg "The Bell Curve")
+
+[Source: https://www.simplypsychology.org/normal-distribution.html]
+
+**Mean, median, mode and standard deviation**
+
+![The Bell Curve](./images/normal-distribution.webp "The Bell Curve")
+
+[Source: https://www.simplypsychology.org/normal-distribution.html]
 
 <div id="Chapter4"></div>
 
-Central Limits Theorm, sample size, statistical power
+The Central limits theorm, sample size and statistical power
 -------------------------------------------------------------
