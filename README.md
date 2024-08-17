@@ -69,15 +69,13 @@ Typically multiple people work on a project.
 
 The work is split into modular tasks and each task gets assigned to one person.
 
-That person creates "branch" version of the code from the "main" of the code repository.
+That person creates a "branch" version of the code from the "main" of the code.
 
-That person can edit existing files, add new files or delete files.
+That person can edit existing files, add new files or delete files on the branch, without affecting other tasks done by another person on their branch.
 
 After the task is completed and is error free, the code is "merged" back into the "main" branch.
 
-But before merging the branch into main, the branch is updated with code form the main (some other person may have updated the main with their code for a task that they may have completed).
-
-You would not want to overwrite their changes.
+But before merging the branch into main, the branch is updated with code form the main (some other person may have updated the main with their code) and you would not want to overwrite their changes when you merge your code into main.
 
 ## How to create a branch from the main
 
@@ -167,5 +165,5 @@ Data with such a bell shape are said to be "normally distributed" about the mean
 
 <div id="Section4"></div>
 
-The Central limits theorm, sample size and statistical power
+The Central limits theorem, sample size and statistical power
 -------------------------------------------------------------
