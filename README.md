@@ -34,7 +34,7 @@ Basic classical Statistics in Python
 # Content
 
 * [Chapter 1: Git and Github](#Chapter1)
-* [Chapter 2: Normal Distribution,mean, median, mode and standard deviation](#Chapter2)
+* [Chapter 2: Python virtual environment](#Chapter2)
 * [Chapter 3: Normal Distribution,mean, median, mode and standard deviation](#Chapter3)
 * [Chapter 4: Central Limits Theorm, sample size, statistical power](#Chapter4)
 
@@ -67,10 +67,46 @@ https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on
  -----------------------------------------------------------------
 
 
+A Virtual Environment is an isolated working copy of Python for each project you create. In thi manner you can customize the python environment for a project without affecting other projects. 
+
+For now just learn how to set up python "virtual environment" for developing code.
+Once you start writing some code, installing python "libraries" or "packages", you will begin to understand why we create "virtual environments" for developing code.
+
+
+**How to create python vnenv**
+
+On the terminal
+
+1. pip install virtualenv
+2. python -m venv .venv
+3. source .venv/bin/activate
+
+
 <div id="Chapter3"></div>
 
- Normal Distribution,mean, median, mode and standard deviation
- -----------------------------------------------------------------
+# Normal Distribution,mean, median, mode, variance and standard deviation
+
+**Population and Sample**
+
+What is a population?
+
+The entire group on which you would like to collect information on.
+
+A hypothetical example of a population could be all the 10000 students of Jadavpur university and the information you may want to collect may be the average weights of the students. You may also want to examine the average weight of the students by gender.
+
+* average weight = sum of all the students' weight / total number of students
+
+* average female weight = sum of all the female students' weight / total number of female students
+
+* average male weight = sum of all the female students' weight / total number of female students
+
+So how will you find out this information?
+
+Will you measure the weights of all the students?
+
+It will cost time and money to measure all the students.
+
+Is it possible to arrive at the answers you seek by measuring the weights of a subset of the students instead? Thats would be nice as you can save time and money.
 
 <div id="Chapter4"></div>
 
