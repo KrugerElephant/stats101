@@ -1,59 +1,43 @@
-# stats101
-Basic classical statistics in Python
+# Basic Classical Statistics (with Python)
+
 
 # Content
 
-* [Chapter 1: Git and Github](#Chapter1)
-* [Chapter 2: Python virtual environment](#Chapter2)
-* [Chapter 3: Normal Distribution,mean, median, mode and standard deviation](#Chapter3)
-* [Chapter 4: Central Limits Theorem, sample size, statistical power](#Chapter4)
+* [Section 1: Git and Github](#Section1)
+    - [Section 1.1: Git](#Git)
+    - [Section 1.2: Github](#Github)
+    - [Section 1.3: How to install Git](#How-to-install-Git)
+    - [Section 1.4: How to clone a repository form GitHub](#Git-clone)
+    - [Section 1.6: How to switch branch](#Git-checkout)
+    - [Section 1.7: How to update a branch](#Git-pull)
+    - [Section 1.8: How to merge from main into branch](#Git-merge-main-into-branch)
+    - [Section 1.9: How to merge a branch into main](#Git-merge-branch-into-main)
 
-<div id="Chapter1"></div>
+* [Section 2: Python virtual environment](#Section2)
+* [Section 3: Normal Distribution,mean, median, mode and standard deviation](#Section3)
+* [Section 4: Central Limits Theorem, sample size, statistical power](#Section4)
 
-Git and Github
------------------
+<div id="Section1"></div>
 
-**Git**
+# Git and Github
+
+<div id="Git"></div>
+
+## Git
 
 A software tool for code version control
 
 You can save snapshots of your code. Typically when you have a bug free and working version of your code, you "commit" (take a snap shot) of the code to your repository. You then continue to edit your code to add more functionality. But at times, your code may no longer work because of errors in your logic and you may want to revert back to the older version of your code. With git version control it is possible for you to retrieve older versions of your code.
 
-**Github**
+<div id="Github"></div>
+
+## Github
 
 It is an online platform for creating code repositories that can be shared by many people. Software projects usually have many people collaborating on code development. Github code repositories make it possible to share and edit code in a systematic manner with git version control.
 
-**How to install Git**
+<div id="How-to-install-Git"></div>
 
-On windows we can install Git by installing Github.
-But first create an account on Github. It is free.
-
-# stats101
-Basic classical Statistics in Python
-
-# Content
-
-* [Chapter 1: Git and Github](#Chapter1)
-* [Chapter 2: Python virtual environment](#Chapter2)
-* [Chapter 3: Normal Distribution,mean, median, mode and standard deviation](#Chapter3)
-* [Chapter 4: Central Limits Theorm, sample size, statistical power](#Chapter4)
-
-<div id="Chapter1"></div>
-
-Git and Github
------------------
-
-**Git**
-
-A software tool for code version control
-
-You can save snapshots of your code. Typically when you have a bug free and working version of your code, you "commit" (take a snap shot) of the code to your repository. You then continue to edit your code to add more functionality. But at times, your code may no longer work because of errors in your logic and you may want to revert back to the older version of your code. With git version control it is possible for you to retrieve older versions of your code.
-
-**Github**
-
-It is an online platform for creating code repositories that can be shared by many people. Software projects usually have many people collaborating on code development. Github code repositories make it possible to share and edit code in a systematic manner with git version control.
-
-**How to install Git**
+## How to install Git
 
 On windows we can install Git by installing Github.
 But first create an account on Github. It is free.
@@ -61,11 +45,58 @@ But first create an account on Github. It is free.
 https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github
 
 
-<div id="Chapter2"></div>
+<div id="Git-clone"></div>
 
- Python Virtual Environment
- -----------------------------------------------------------------
+## How to clone a repository form Github
 
+On the terminal (command line) type:
+
+git clone "the-url-of-the-repository"
+
+example:
+
+```
+
+git clone https://github.com/KrugerElephant/stats101.git
+
+```
+
+<div id="Git-branches"></div>
+
+## Git branches for collaborative code development
+
+Typically multiple people work on a project. 
+
+The work is split into modular tasks and each task gets assigned to one person.
+
+That person creates "branch" version of the code from the "main" of the code repository.
+
+That person can edit existing files, add new files or delete files.
+
+After the task is completed and is error free, the code is "merged" back into the "main" branch.
+
+But before merging the branch into main, the branch is updated with code form the main (some other person may have updated the main with their code for a task that they may have completed).
+
+You would not want to overwrite their changes.
+
+## How to create a branch from the main
+
+
+<div id="Git-checkout"></div>
+
+
+<div id="Git-pull"></div>
+
+
+<div id="Git-merge-main-into-branch"></div>
+
+
+<div id="Git-merge-branch-into-main"></div>
+
+
+<div id="Section2"></div>
+
+ # Python Virtual Environment
 
 A Virtual Environment is an isolated working copy of Python for each project you create. In thi manner you can customize the python environment for a project without affecting other projects. 
 
@@ -82,7 +113,7 @@ On the terminal
 3. source .venv/bin/activate
 
 
-<div id="Chapter3"></div>
+<div id="Section3"></div>
 
 # Normal Distribution, mean, median, mode, variance and standard deviation
 
@@ -134,7 +165,7 @@ Data with such a bell shape are said to be "normally distributed" about the mean
 
 [Source: https://www.simplypsychology.org/normal-distribution.html]
 
-<div id="Chapter4"></div>
+<div id="Section4"></div>
 
 The Central limits theorm, sample size and statistical power
 -------------------------------------------------------------
