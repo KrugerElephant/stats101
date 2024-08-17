@@ -82,15 +82,22 @@ But before merging the branch into main, the branch is updated with code form th
 
 <div id="Git-checkout"></div>
 
+## How to switch branch
+
 
 <div id="Git-pull"></div>
+
+## How to update a branch
 
 
 <div id="Git-merge-main-into-branch"></div>
 
+## How to merge main into branch
 
 <div id="Git-merge-branch-into-main"></div>
 
+
+## How to merge branch into main
 
 <div id="Section2"></div>
 
