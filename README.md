@@ -165,12 +165,26 @@ Once you start writing some code, installing python "libraries" or "packages", y
 
 **How to create python vnenv**
 
-On the terminal
+On the terminal type
 
-1. pip install virtualenv
-2. python -m venv .venv
-3. source .venv/bin/activate
+**Step 1**
 
+```
+pip install virtualenv
+```
+
+**Step 2**
+
+```
+python -m venv .venv
+```
+
+
+**3. Step 3**
+
+```
+source .venv/bin/activate
+```
 
 <div id="Section3"></div>
 
