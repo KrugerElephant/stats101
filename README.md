@@ -8,10 +8,15 @@ Python is a scripting language and is currently the most widely used for data an
 
 We will learn some good practices for developing code and collaborating on coding projects with others. GitHub is an online free platform for software project development and for version control of source code via Git. Section 1 is an introduction to Git and Github (basics) just enough to get started. You can learn the intermediate and advanced features on your own, from online documents on Git and and Github.
 
+<div id="Contents"></div>
 
-# Content
+# Contents
 
 * [Section 1: Git and Github](#Section1)
+
+    <details>
+    <summary>Sub sections</summary>
+
     - [Section 1.1: Git](#Git)
     - [Section 1.2: Github](#Github)
     - [Section 1.3: How to install Git](#How-to-install-Git)
@@ -21,9 +26,18 @@ We will learn some good practices for developing code and collaborating on codin
     - [Section 1.8: How to merge from main into branch](#Git-merge-main-into-branch)
     - [Section 1.9: How to merge a branch into main](#Git-merge-branch-into-main)
 
-* [Section 2: Python virtual environment](#Section2)
-* [Section 3: Normal Distribution,mean, median, mode and standard deviation](#Section3)
-* [Section 4: Central Limits Theorem, sample size, statistical power](#Section4)
+* [Section 2: Python Virtual Environment](#Section2)
+* [Section 3: Normal Distribution, Mean, Median, Mode and Standard deviation](#Section3)
+
+    <details>
+    <summary>Sub sections</summary>
+
+    - [Section 3.1: Population and Sample](#population-and-sample)
+    - [Section 3.2: The Bell Curve](#bell-curve)
+    - [Section 3.3: Mean, Median, Mode and Standard Deviation](#mean-median-mode)
+
+
+* [Section 4: Central Limits Theorem, Sample size and Statistical power](#Section4)
 
 <div id="Section1"></div>
 
@@ -36,6 +50,8 @@ We will learn some good practices for developing code and collaborating on codin
 A software tool for code version control
 
 You can save snapshots of your code. Typically when you have a bug free and working version of your code, you "commit" (take a snap shot) of the code to your repository. You then continue to edit your code to add more functionality. But at times, your code may no longer work because of errors in your logic and you may want to revert back to the older version of your code. With git version control it is possible for you to retrieve older versions of your code.
+
+[Back to Contents](#Contents)
 
 <div id="Github"></div>
 
@@ -52,6 +68,8 @@ But first create an account on Github. It is free.
 
 https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github
 
+[Back to Contents](#Contents)
+
 
 <div id="Git-clone"></div>
 
@@ -66,6 +84,8 @@ example:
 ```
 git clone https://github.com/KrugerElephant/stats101.git
 ```
+
+[Back to Contents](#Contents)
 
 <div id="Git-branches"></div>
 
@@ -97,10 +117,12 @@ git config --global user.email "karpakazi@gmail.com"
 git config --global user.name "karpagam"
 ```
 
-## How to create a branch from the main
+[Back to Contents](#Contents)
 
 
 <div id="Git-checkout"></div>
+
+## How to create a branch from the main
 
 You can create a branch from the command line like so. The "my-branch-01" is an example. You can give an appropriate name for your branch and it is usually indicative of the task for which you are creating a branch.
 
@@ -110,10 +132,12 @@ But we will create branches from out GitHub project Stats101 which is linked to 
 git checkout -b my-branch-01
 ```
 
+[Back to Contents](#Contents)
 
-## How to switch branch
 
 <div id="Git-swicth-branch"></div>
+
+## How to switch branch
 
 ```
 git checkout my-branch-01
@@ -132,6 +156,8 @@ git checkout my-branch-01
 git pull
 ```
 
+[Back to Contents](#Contents)
+
 <div id="Git-merge-main-into-branch"></div>
 
 ## How to merge the latest updates from the main into a branch
@@ -145,12 +171,16 @@ git merge main
 
 There may be conflicts but can be resolved and merged
 
+[Back to Contents](#Contents)
+
 
 <div id="Git-merge-branch-into-main"></div>
 
 ## How to merge branch into main
 
 Instead of merging from the command line, let us merge from GitHub project, after code review and approval by a peer. This it is a safer way to merge code from branch into main. There may be code conflicts but can be resolved and merged.
+
+[Back to Contents](#Contents)
 
 
 <div id="Section2"></div>
@@ -186,11 +216,15 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
+[Back to Contents](#Contents)
+
 <div id="Section3"></div>
 
 # Normal Distribution, mean, median, mode, variance and standard deviation
 
-**Population and Sample**
+<div id="population-and-sample"></div>
+
+## Population and Sample
 
 What is a population?
 
@@ -226,19 +260,32 @@ This kind of behaviour produces a frequencey distribution curve that looks like 
 
 Data with such a bell shape are said to be "normally distributed" about the mean.
 
-**Normal distribution (The Bell Shaped Curve) is also know as Gaussian distribution**
+[Back to Contents](#Contents)
 
-![The Bell Curve](./images/bell-curve.jpg "The Bell Curve")
+<div id="bell-curve"></div>
+
+## Normal distribution (The Bell Shaped Curve) is also know as Gaussian distribution
+
+<img src="./images/bell-curve.jpg" width="600" height="500"  alt="The Bell Curve" align="center">
 
 [Source: https://www.simplypsychology.org/normal-distribution.html]
 
-**Mean, median, mode and standard deviation**
+[Back to Contents](#Contents)
+
+<div id="mean-median-mode"></div>
+
+## Mean, Median, Mode and Standard deviation
 
 ![The Bell Curve](./images/normal-distribution.webp "The Bell Curve")
 
 [Source: https://www.simplypsychology.org/normal-distribution.html]
 
+[Back to Contents](#Contents)
+
 <div id="Section4"></div>
 
-The Central limits theorem, sample size and statistical power
--------------------------------------------------------------
+[Back to Contents](#Contents)
+
+# The Central Limits Theorem, Sample size and Statistical power
+
+[Back to Contents](#Contents)
