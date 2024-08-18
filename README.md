@@ -278,17 +278,50 @@ Data with such a bell shape are said to be "normally distributed" about the mean
 
 <div id="mean-median-mode"></div>
 
-## Mean, Median, Mode and Standard deviation
+## Mean, Median, Mode, Variance and Standard deviation
 
-![The Bell Curve](./images/normal-distribution.webp "The Bell Curve")
+
+<img src="./images/normal-distribution.webp" width="400" height="300"  alt="The Bell Curve" align="center">
+
 
 [Source: https://www.simplypsychology.org/normal-distribution.html]
+
+
+**Mathematical formule to calculate the Mean(&mu;), Variance(&sigma;<sup>2</sup>) and Standard Deviation(&sigma;)**
+
+**&mu;** = sum of all values % sample_size
+
+**&mu;** is the Greek symbol for mean
+
+**Variance** is measure of dispersion in the data set. A measure of how much the values differ from the mean.
+
+It is the average of the squared differences from the mean.
+
+Why square?
+
+The deviation from the mean could be positive  or negative. When we take average of the deviations from the mean, postives and negatives will cancel each other (see data points p3 and p4). But the square of a negative number is positive, therefore we square the deviation before calculating the average of the deviations
+
+<img src="./images/Variance.png" width="400" height="300"  alt="Variance" align="center">
+
+For the data points p1, p2, p3, p4, p5 and p6 the variance is calculated as follows:
+
+**&sigma;<sup>2</sup>** = [(mean - p1)<sup>2</sup> + (mean - p2)<sup>2</sup> + (mean - p3)<sup>2</sup> + (mean - p4)<sup>2</sup> + (mean - p5)<sup>2</sup>]+ (mean - p6)<sup>2</sup>]/6
+
+The Greel symbol for **variance** is **&sigma;<sup>2</sup>**
+
+After calculating the variance we take the square root (the opposite of squaring) and this is called the "Standard Deviation"
+
+**&sigma;** = &#8730;variance
+
+**&sigma;** is the Greek symbol for standard deviation
+
+**Standard Deviation** is the square root of the Variance.
+
+
 
 [Back to Contents](#Contents)
 
 <div id="Section4"></div>
-
-[Back to Contents](#Contents)
 
 # The Central Limits Theorem, Sample size and Statistical power
 
