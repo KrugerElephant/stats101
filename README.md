@@ -64,9 +64,7 @@ git clone "the-url-of-the-repository"
 example:
 
 ```
-
 git clone https://github.com/KrugerElephant/stats101.git
-
 ```
 
 <div id="Git-branches"></div>
@@ -91,17 +89,12 @@ This helps us keep track of the chnages made.
 This is how I configured my email and user name. Replace my credentials with yours.
 
 ```
-
 git config --global user.email "karpakazi@gmail.com"
-
 ```
 
 
 ```
-
 git config --global user.name "karpagam"
-
-
 ```
 
 ## How to create a branch from the main
@@ -114,29 +107,51 @@ You can create a branch from the command line like so. The "my-branch-01" is an 
 But we will create branches from out GitHub project Stats101 which is linked to this stata101 code repository.
 
 ```
-
-git check-out -b my-branch-01
-
-
+git checkout -b my-branch-01
 ```
 
 
 ## How to switch branch
 
+<div id="Git-swicth-branch"></div>
+
+```
+git checkout my-branch-01
+```
 
 <div id="Git-pull"></div>
 
 ## How to update a branch
 
 
+Switch to the branch you would like to update and "pull" the latest
+updates from the repository.
+
+```
+git checkout my-branch-01
+git pull
+```
+
 <div id="Git-merge-main-into-branch"></div>
 
-## How to merge main into branch
+## How to merge the latest updates from the main into a branch
+
+```
+git checkout main
+git pull
+git checkout my-branch-01
+git merge main
+```
+
+There may be conflicts but can be resolved and merged
+
 
 <div id="Git-merge-branch-into-main"></div>
 
-
 ## How to merge branch into main
+
+Instead of merging from the command line, let us merge from GitHub project, after code review and approval by a peer. This it is a safer way to merge code from branch into main. There may be code conflicts but can be resolved and merged.
+
 
 <div id="Section2"></div>
 
