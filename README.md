@@ -26,7 +26,10 @@ We will learn some good practices for developing code and collaborating on codin
     - [Section 1.8: How to merge from main into branch](#Git-merge-main-into-branch)
     - [Section 1.9: How to merge a branch into main](#Git-merge-branch-into-main)
 
+
 * [Section 2: Python Virtual Environment](#Section2)
+
+
 * [Section 3: Normal Distribution, Mean, Median, Mode and Standard deviation](#Section3)
 
     <details>
@@ -40,6 +43,7 @@ We will learn some good practices for developing code and collaborating on codin
 * [Section 4: Central Limits Theorem, Sample size and Statistical power](#Section4)
 
 <div id="Section1"></div>
+
 
 # Git and Github
 
