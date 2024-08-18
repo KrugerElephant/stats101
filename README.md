@@ -1,5 +1,13 @@
 # Basic Classical Statistics (with Python)
 
+This course is intended for students from life sciences such as biologists and ecologists who are interested in research but have no prior knowledge of basic statistics or any coding languages such as python or R.
+
+Research in most field entails designing experiments, in a scientific and systematic manner,  collecting data from the experiments and then analysing the data mathematically to make inferences. Therfore, all researchers have to have some knowledge of experiment desigg, data analysis and finally data visualization to communicate the results clearly.
+
+Python is a scripting language and is currently the most widely used for data analysis with statistical methods and artificial intelligence (AI)/ML (machine learning). Python is used both in the academia as well as in the industry, therefore students trained in Python can switch with ease from academia to researchand development in the industry.
+
+We will learn some good practices for developing code and collaborating on coding projects with others. GitHub is an online opensource platform for software project development and for version control of source code via Git. Section 1 is introduction to Git and Github (basics) just enough to get started. You can learn the interemdiate and advanced features on your own from online documents on Git and and Github.
+
 
 # Content
 
@@ -77,10 +85,41 @@ After the task is completed and is error free, the code is "merged" back into th
 
 But before merging the branch into main, the branch is updated with code form the main (some other person may have updated the main with their code) and you would not want to overwrite their changes when you merge your code into main.
 
+Let us configure some user name and user email parameters before we colloborate on a project.
+This helps us keep track of the chnages made.
+
+This is how I configured my email and user name. Replace my credentials with yours.
+
+```
+
+git config --global user.email "karpakazi@gmail.com"
+
+```
+
+
+```
+
+git config --global user.name "karpagam"
+
+
+```
+
 ## How to create a branch from the main
 
 
 <div id="Git-checkout"></div>
+
+You can create a branch from the command line like so. The "my-branch-01" is an example. You can give an appropriate name for your branch and it is usually indicative of the task for which you are creating a branch.
+
+But we will create branches from out GitHub project Stats101 which is linked to this stata101 code repository.
+
+```
+
+git check-out -b my-branch-01
+
+
+```
+
 
 ## How to switch branch
 
