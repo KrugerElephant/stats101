@@ -1,12 +1,12 @@
 # Basic Classical Statistics (with Python)
 
-This course is intended for students from life sciences such as biologists and ecologists who are interested in research but have no prior knowledge of basic statistics or any coding languages such as python or R.
+This course is intended for students from life sciences such as biologists and ecologists who are interested in research but have no prior knowledge of basic statistics or any coding language such as Python or R.
 
-Research in most field entails designing experiments, in a scientific and systematic manner,  collecting data from the experiments and then analysing the data mathematically to make inferences. Therfore, all researchers have to have some knowledge of experiment desigg, data analysis and finally data visualization to communicate the results clearly.
+Research in most field entails designing experiments, in a scientific and systematic manner,  collecting data from the experiments and analysing the data mathematically to make inferences. Therfore, all researchers have to have some knowledge of experiment design, data analysis and finally data visualization to communicate the results clearly.
 
-Python is a scripting language and is currently the most widely used for data analysis with statistical methods and artificial intelligence (AI)/ML (machine learning). Python is used both in the academia as well as in the industry, therefore students trained in Python can switch with ease from academia to researchand development in the industry.
+Python is a scripting language and is currently the most widely used for data analysis with statistical methods and artificial intelligence (AI)/ML (machine learning). Python is used both in the academia as well as in the industry, therefore students trained in Python can switch with ease from academia to research & development in the industry.
 
-We will learn some good practices for developing code and collaborating on coding projects with others. GitHub is an online opensource platform for software project development and for version control of source code via Git. Section 1 is introduction to Git and Github (basics) just enough to get started. You can learn the interemdiate and advanced features on your own from online documents on Git and and Github.
+We will learn some good practices for developing code and collaborating on coding projects with others. GitHub is an online free platform for software project development and for version control of source code via Git. Section 1 is an introduction to Git and Github (basics) just enough to get started. You can learn the intermediate and advanced features on your own, from online documents on Git and and Github.
 
 
 # Content
